@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif, oblique 10deg;
+    background-color:#FAD7A0 ;
+  }
+  header {
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    display: inline-block;
+  }
+  .current{
+    text-transform: uppercase;
+    background-color:bisque;
+  }
+  li{
+    background-color: rosybrown;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  nav ul li a:hover {
+    color: #007bff;
+  }
+  main {
+    padding: 20px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .grid img {
+    width: 100% 
+  }
+/* Style the flex class to use flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Play with the flex-wrap and justify-content property values to copy the look of the screenshots above */
+.flex > div {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+}
+ 
